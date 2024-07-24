@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 05</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Embedded Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content content">
+            <a href="#">
+                <img src="./assets/images/logo.svg" alt="MODULARS" class="logo">
+            </a>
+            <nav class="navbar">
+                <a href="#" class="navbar-item navbar-item--active">Home</a>
+                <a href="#about" class="navbar-item">About</a>
+                <a href="#blog" class="navbar-item">Blog</a>
+                <a href="#contact" class="navbar-item">Contact</a>
+            </nav>
+            <a href="#!" class="header-cta btn">Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content content">
+                <div class="hero-info">
+                    <h1 class="main-heading">We’re a creative design agency.</h1>
+                    <p class="desc type-1 hero-info__desc">A brilliant, modular agency template for startup’s build
+                        yours toady.</p>
+                    <div class="hero-cta">
+                        <a href="#!" class="hero-cta__contact btn">Get in touch</a>
+                        <button class="hero-cta__play-btn">
+                            <span class="hero-cta__icon-border">
+                                <span class="play-btn__icon-wrapper">
+                                    <img src="./assets/images/play.svg" alt="play video" class="play-btn__icon">
+                                </span>
+                            </span>
+                            <span class="play-btn__text">Watch Video</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-illustrator">
+                    <div class="behind"></div>
+                    <div class="image-group">
+                        <img class="hero-image" src="./assets/images/hero/hero-image-1.jpg"
+                            alt="We’re a creative design agency.">
+                        <img class="hero-image" src="./assets/images/hero/hero-image-2.jpg"
+                            alt="We’re a creative design agency.">
+                        <img class="hero-image" src="./assets/images/hero/hero-image-3.jpg"
+                            alt="We’re a creative design agency.">
+                    </div>
+
+                    <img src="./assets/images/line.svg" alt="" class="line-1">
+                    <img src="./assets/images/flower.svg" alt="" class="flower-1">
+                    <img src="./assets/images/line.svg" alt="" class="line-2">
+                    <img src="./assets/images/flower.svg" alt="" class="flower-2">
+                </div>
+            </div>
+        </section>
+
+        <div class="brand">
+            <div class="brand-content content">
+                <img src="./assets/images/brand/google.svg" alt="Google" class="brand-logo">
+                <img src="./assets/images/brand/slack.svg" alt="Slack" class="brand-logo">
+                <div class="brand-logo">
+                    <img src="./assets/images/brand/discord.svg" alt="Discord Agworld" class="brand-image">
+                    <span class="brand-name">Agworld</span>
+                </div>
+                <img src="./assets/images/brand/riotinto.svg" alt="RioTinto" class="brand-logo">
+                <img src="./assets/images/brand/heroku.svg" alt="Heroku" class="brand-logo">
+            </div>
+        </div>
+
+        <section class="service">
+            <div class="content">
+                <div class="service__top-row">
+                    <div class="service-intro">
+                        <p class="service__floating-heading floating-heading">
+                            OUR SERVICES
+                        </p>
+                        <h2 class="service-heading heading">
+                            We offer a wide range of design services
+                        </h2>
+                    </div>
+                    <div class="service-controls">
+                        <button class="control-btn">
+                            <svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="control-btn">
+                            <svg width="22" height="12" viewBox="0 0 22 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service__list">
+                    <article class="service-item">
+                        <img src="./assets/images/service/service-1.jpg" alt="Branding" class="service-thumb">
+                        <div class="service-item__info">
+                            <h3 class="title line-clamp" style="--line: 2">Branding</h3>
+                            <p class="desc type-3 line-clamp">Create beautiful Agency website with
+                                Boluethat converts more visitors than
+                                any website.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-item">
+                        <img src="./assets/images/service/service-2.jpg" alt="Branding" class="service-thumb">
+                        <div class="service-item__info">
+                            <h3 class="title line-clamp" style="--line: 2">Branding</h3>
+                            <p class="desc type-3 line-clamp">Create beautiful Agency website with
+                                Boluethat converts more visitors than
+                                any website.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-item">
+                        <img src="./assets/images/service/service-3.jpg" alt="Branding" class="service-thumb">
+                        <div class="service-item__info">
+                            <h3 class="title line-clamp" style="--line: 2">Branding</h3>
+                            <p class="desc type-3 line-clamp">Create beautiful Agency website with
+                                Boluethat converts more visitors than
+                                any website.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-content content">
+                <div class="about-illustrator">
+                    <div class="image-group">
+                        <img class="about-image" src="./assets/images/about/about-1.jpg"
+                            alt="We are an extention of your creative team">
+                        <img class="about-image" src="./assets/images/about/about-2.jpg"
+                            alt="We are an extention of your creative team">
+                    </div>
+
+                    <img src="./assets/images/line.svg" alt="" class="line">
+                    <img src="./assets/images/flower.svg" alt="" class="flower">
+
+                    <div class="static-wrapper">
+                        <em class="static-title">All Desingners</em>
+                        <span class="static-subtitle">Total Balance</span>
+                        <div class="static-progress">
+                            <strong class="value">40%</strong>
+                            <div class="progress-bar"></div>
+                            <span class="text">Loding...</span>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p class="about-info__floating-heading floating-heading">ABOUT US</p>
+                    <h2 class="about-info__heading heading">We are an extention of your creative team</h2>
+                    <p class="about-desc desc type-2 line-clamp">
+                        At the start of every project, we cusomizea detailed project plan together with you set
+                        exectationns ensure alighment and define key milestones and deiverbles.
+                    </p>
+                    <div class="about-info__figure-group">
+                        <div class="figure-wrapper">
+                            <strong class="percentage heading">48%</strong>
+                            <p class="figure-desc desc type-3 line-clamp">Are you strive for two things in design
+                                simplicity and
+                                clarity. Great
+                                design is born of those two things
+                            </p>
+                        </div>
+
+                        <div class="figure-wrapper">
+                            <strong class="percentage heading">26%</strong>
+                            <p class="figure-desc desc type-3 line-clamp">Are you strive for two things in design
+                                simplicity and
+                                clarity. Great
+                                design is born of those two things
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="process-content content">
+                <p class="process__floating-heading floating-heading">OUR PROCESS</p>
+                <h2 class="process__heading heading">A simple ,yet effective three step process</h2>
+                <div class="process-list">
+                    <div class="process-item process-item--current-step">
+                        <div class="process-item__showed">
+                            <strong class="no">01.</strong>
+                            <div class="title-group">
+                                <h3 class="title">Project idea</h3>
+                                <a href="#!" class="process-cta">Learn more</a>
+                            </div>
+                            <p class="process-item__desc line-clamp">We customse a ensure aligment and difine key
+                                mileones and
+                                defiverables experience tells us the best solutions are the ones deated with clients.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="process-item">
+                        <div class="process-item__showed">
+                            <strong class="no">02.</strong>
+                            <div class="title-group">
+                                <h3 class="title">Brainstormaing</h3>
+                                <a href="#!" class="process-cta">Learn more</a>
+                            </div>
+                            <p class="process-item__desc line-clamp">We customse a ensure aligment and difine key
+                                mileones and
+                                defiverables experience tells us the best solutions are the ones deated with clients.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="process-item">
+                        <div class="process-item__showed">
+                            <strong class="no">03.</strong>
+                            <div class="title-group">
+                                <h3 class="title">Execution</h3>
+                                <a href="#!" class="process-cta">Learn more</a>
+                            </div>
+                            <p class="process-item__desc line-clamp">We customse a ensure aligment and difine key
+                                mileones and
+                                defiverables experience tells us the best solutions are the ones deated with clients.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="process__pic" src="./assets/images/person.png"
+                    alt="A simple ,yet effective three step process">
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="projects-content content">
+                <div class="projects__intro">
+                    <h2 class="heading">A quick glance of our past projects</h2>
+                    <div class="desc-group">
+                        <p class="desc type-1">Are you strive for the fast project simplicity and clarity. Great
+                            design is born of those two things.
+                        </p>
+                        <a href="#!" class="projects-cta">
+                            <span class="projects-cta__text type-1">Browse all Projects</span>
+                            <svg class="control-btn" xmlns="http://www.w3.org/2000/svg" width="22" height="12"
+                                viewBox="0 0 22 12" fill="none">
+                                <path d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__video">
+                    <div class="play-btn"></div>
+                    <img src="./assets/images/projects/video-thumb.jpg" alt="A quick glance of our past projects"
+                        class="video-thumb">
+                </div>
+
+                <img src="./assets/images/line.svg" alt="" class="line">
+                <img src="./assets/images/flower.svg" alt="" class="flower">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="content">
+                <div class="features-intro">
+                    <h2 class="features-intro__heading heading">Share the features that help your customers</h2>
+                    <p class="features-intro__desc desc type-2 line-clamp">You already know that the customer experience
+                        doesn't end with a sale —
+                        it's an ongoing work in progress that companies should be constantly seeking to improve and
+                        iterate on.</p>
+                </div>
+
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <img src="./assets/images/features/blog.svg" alt="Blog" class="feature-item__icon">
+                        <h3 class="feature-item__title">Blog</h3>
+                        <p class="feature-item__desc desc type-3 line-clamp" style="--line: 5">We’ve researched numerous
+                            agencies and
+                            complied a list of digital
+                            marketing agency blogs you should read to stay ahead of your rivals and succeed online!</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <img src="./assets/images/features/document.svg" alt="Document" class="feature-item__icon">
+                        <h3 class="feature-item__title">Document</h3>
+                        <p class="feature-item__desc desc type-3 line-clamp" style="--line: 5">We’ve researched numerous
+                            agencies and
+                            complied a list of digital
+                            marketing agency blogs you should read to stay ahead of your rivals and succeed online!</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <img src="./assets/images/features/customer.svg" alt="Customers" class="feature-item__icon">
+                        <h3 class="feature-item__title">Customers</h3>
+                        <p class="feature-item__desc desc type-3 line-clamp" style="--line: 5">We’ve researched numerous
+                            agencies and
+                            complied a list of digital
+                            marketing agency blogs you should read to stay ahead of your rivals and succeed online!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blogs-articles">
+            <div class="content">
+                <div class="blog-article__intro">
+                    <p class="blog-article__floating-heading floating-heading">BLOG & ARTICLES</p>
+                    <div class="blog-article__intro__header">
+                        <h2 class="blogs-articles__heading heading">Take a look at our latest articles and resources
+                        </h2>
+                        <p class="blogs-articles__desc desc type-3 line-clamp">The best agency are the ones ideated with
+                            clients. we corporate your
+                            ideas with
+                            memorable</p>
+                    </div>
+
+                    <div class="blog-list">
+                        <article class="blog-item">
+                            <img src="./assets/images/blogs/thumb-1.jpg" alt="" class="blog-item__thumb">
+                            <div class="blog-item__info">
+                                <a href="#!" class="blog-item__cta">STORIES</a>
+                                <h3 class="blog-item__title line-clamp">What did we learn from nunning over 100 design
+                                    sprints in
+                                    less the year?</h3>
+                                <p class="blog-item__date">JANUARY 29, 2022</p>
+                            </div>
+                        </article>
+
+                        <article class="blog-item">
+                            <img src="./assets/images/blogs/thumb-1.jpg" alt="" class="blog-item__thumb">
+                            <div class="blog-item__info">
+                                <a href="#!" class="blog-item__cta">STORIES</a>
+                                <h3 class="blog-item__title line-clamp">What did we learn from nunning over 100 design
+                                    sprints in
+                                    less the year?</h3>
+                                <p class="blog-item__date">JANUARY 29, 2022</p>
+                            </div>
+                        </article>
+
+                        <article class="blog-item">
+                            <img src="./assets/images/blogs/thumb-1.jpg" alt="" class="blog-item__thumb">
+                            <div class="blog-item__info">
+                                <a href="#!" class="blog-item__cta">STORIES</a>
+                                <h3 class="blog-item__title line-clamp">What did we learn from nunning over 100 design
+                                    sprints in
+                                    less the year?</h3>
+                                <p class="blog-item__date">JANUARY 29, 2022</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content content">
+            <section id="contact" class="footer-contact">
+                <h2 class="footer-contact__heading">Sign up for our newsletter</h2>
+                <div class="footer__subscribe-form">
+                    <input type="email" class="footer__subscribe-form__input" placeholder="Enter your email">
+                    <svg class="submit-btn" xmlns="http://www.w3.org/2000/svg" width="28" height="18"
+                        viewBox="0 0 28 18" fill="none">
+                        <path d="M1 9H27M27 9L18.3333 1M27 9L18.3333 17" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="social-media">
+                    <a href="#!" class="img-wrapper">
+                        <img src="./assets/images/social-media/facebook.svg" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="#!" class="img-wrapper">
+                        <svg class="social-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.20291 3.51703C9.60056 3.51703 9.92291 3.19467 9.92291 2.79703C9.92291 2.39938 9.60056 2.07703 9.20291 2.07703C8.80527 2.07703 8.48291 2.39938 8.48291 2.79703C8.48291 3.19467 8.80527 3.51703 9.20291 3.51703Z"
+                                fill="currentColor" />
+                            <path
+                                d="M5.99995 2.91901C5.39058 2.91901 4.7949 3.0997 4.28823 3.43825C3.78157 3.77679 3.38667 4.25798 3.15347 4.82096C2.92028 5.38394 2.85927 6.00342 2.97815 6.60108C3.09703 7.19873 3.39047 7.74772 3.82135 8.1786C4.25224 8.60949 4.80122 8.90292 5.39887 9.02181C5.99653 9.14069 6.61601 9.07967 7.17899 8.84648C7.74197 8.61329 8.22316 8.21839 8.5617 7.71172C8.90025 7.20505 9.08095 6.60937 9.08095 6.00001C9.08095 5.18287 8.75634 4.39921 8.17854 3.82141C7.60074 3.24361 6.81708 2.91901 5.99995 2.91901ZM5.99995 8.00001C5.60438 8.00001 5.2177 7.88271 4.88881 7.66295C4.55991 7.44318 4.30356 7.13083 4.15219 6.76537C4.00081 6.39992 3.96121 5.99779 4.03838 5.60983C4.11555 5.22186 4.30603 4.8655 4.58573 4.58579C4.86544 4.30609 5.2218 4.11561 5.60977 4.03844C5.99773 3.96126 6.39986 4.00087 6.76531 4.15225C7.13077 4.30362 7.44312 4.55997 7.66289 4.88887C7.88265 5.21776 7.99995 5.60444 7.99995 6.00001C7.99995 6.53044 7.78923 7.03915 7.41416 7.41422C7.03909 7.78929 6.53038 8.00001 5.99995 8.00001Z"
+                                fill="currentColor" />
+                            <path
+                                d="M6 1.081C7.602 1.081 7.792 1.087 8.4245 1.116C8.80492 1.12052 9.18174 1.19037 9.5385 1.3225C9.79733 1.42235 10.0324 1.57527 10.2286 1.77144C10.4247 1.96761 10.5777 2.20267 10.6775 2.4615C10.8096 2.81826 10.8795 3.19508 10.884 3.5755C10.913 4.208 10.919 4.398 10.919 6.0005C10.919 7.603 10.913 7.792 10.884 8.4245C10.8795 8.80492 10.8096 9.18174 10.6775 9.5385C10.5777 9.79733 10.4247 10.0324 10.2286 10.2286C10.0324 10.4247 9.79733 10.5777 9.5385 10.6775C9.18174 10.8096 8.80492 10.8795 8.4245 10.884C7.792 10.913 7.602 10.919 6 10.919C4.398 10.919 4.208 10.913 3.5755 10.884C3.19508 10.8795 2.81826 10.8096 2.4615 10.6775C2.20267 10.5777 1.96761 10.4247 1.77144 10.2286C1.57527 10.0324 1.42235 9.79733 1.3225 9.5385C1.19037 9.18174 1.12052 8.80492 1.116 8.4245C1.087 7.792 1.081 7.602 1.081 6C1.081 4.398 1.087 4.208 1.116 3.5755C1.12052 3.19508 1.19037 2.81826 1.3225 2.4615C1.42235 2.20267 1.57527 1.96761 1.77144 1.77144C1.96761 1.57527 2.20267 1.42235 2.4615 1.3225C2.81826 1.19037 3.19508 1.12052 3.5755 1.116C4.208 1.087 4.398 1.081 6 1.081ZM6 0C4.3705 0 4.166 0.00700001 3.526 0.036C3.02839 0.0460481 2.53608 0.140385 2.07 0.315C1.67136 0.469149 1.30933 0.704889 1.00711 1.00711C0.704889 1.30933 0.469149 1.67136 0.315 2.07C0.140329 2.53624 0.0459917 3.02872 0.036 3.5265C0.00700001 4.1665 0 4.37 0 6C0 7.63 0.00700001 7.834 0.036 8.474C0.0460481 8.97161 0.140385 9.46392 0.315 9.93C0.469149 10.3286 0.704889 10.6907 1.00711 10.9929C1.30933 11.2951 1.67136 11.5309 2.07 11.685C2.53624 11.8597 3.02872 11.954 3.5265 11.964C4.1665 11.993 4.3705 12 6 12C7.6295 12 7.834 11.993 8.474 11.964C8.97178 11.954 9.46426 11.8597 9.9305 11.685C10.3291 11.5309 10.6912 11.2951 10.9934 10.9929C11.2956 10.6907 11.5314 10.3286 11.6855 9.93C11.86 9.46373 11.9542 8.97125 11.964 8.4735C11.993 7.8335 12 7.63 12 6C12 4.37 11.993 4.166 11.964 3.526C11.954 3.02839 11.8596 2.53608 11.685 2.07C11.5309 1.67136 11.2951 1.30933 10.9929 1.00711C10.6907 0.704889 10.3286 0.469149 9.93 0.315C9.46373 0.1405 8.97125 0.0463316 8.4735 0.0365C7.8335 0.00649998 7.63 0 6 0Z"
+                                fill="currentColor" />
+                        </svg>
+
+                    </a>
+                    <a href="#!" class="img-wrapper">
+                        <svg class="social-icon" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 1.42062C15.405 1.66154 14.771 1.82123 14.11 1.89877C14.79 1.524 15.309 0.935077 15.553 0.225231C14.919 0.574154 14.219 0.820615 13.473 0.958154C12.871 0.366462 12.013 0 11.077 0C9.261 0 7.799 1.36062 7.799 3.02862C7.799 3.26862 7.821 3.49938 7.875 3.71908C5.148 3.59631 2.735 2.38985 1.114 0.552C0.831 1.00523 0.665 1.524 0.665 2.08246C0.665 3.13108 1.25 4.06062 2.122 4.59877C1.595 4.58954 1.078 4.44831 0.64 4.22585C0.64 4.23508 0.64 4.24708 0.64 4.25908C0.64 5.73046 1.777 6.95262 3.268 7.23415C3.001 7.30154 2.71 7.33385 2.408 7.33385C2.198 7.33385 1.986 7.32277 1.787 7.28215C2.212 8.48123 3.418 9.36277 4.852 9.39138C3.736 10.1972 2.319 10.6828 0.785 10.6828C0.516 10.6828 0.258 10.6717 0 10.6412C1.453 11.5062 3.175 12 5.032 12C11.068 12 14.368 7.38462 14.368 3.384C14.368 3.25015 14.363 3.12092 14.356 2.99262C15.007 2.56615 15.554 2.03354 16 1.42062Z"
+                                fill="currentColor" />
+                        </svg>
+
+                    </a>
+                </div>
+            </section>
+            <section class="relevant-pages">
+                <div class="column">
+                    <h3 class="title">Pages</h3>
+                    <div class="list">
+                        <a href="#!" class="item">Home</a>
+                        <a href="#!" class="item">About</a>
+                        <a href="#!" class="item">Blog</a>
+                        <a href="#!" class="item">Blog Post</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="title">Product</h3>
+                    <div class="list">
+                        <a href="#!" class="item">Home</a>
+                        <a href="#!" class="item">About</a>
+                        <a href="#!" class="item">Blog</a>
+                        <a href="#!" class="item">Blog Post</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="title">Overview</h3>
+                    <div class="list">
+                        <a href="#!" class="item">Home</a>
+                        <a href="#!" class="item">About</a>
+                        <a href="#!" class="item">Blog</a>
+                        <a href="#!" class="item">Blog Post</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="title">About us</h3>
+                    <div class="list">
+                        <a href="#!" class="item">Home</a>
+                        <a href="#!" class="item">About</a>
+                        <a href="#!" class="item">Blog</a>
+                        <a href="#!" class="item">Blog Post</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
