@@ -1116,6 +1116,7 @@ button:hover {
 .footer__subscribe-form__input {
     width: 354px;
     padding-bottom: 36px;
+    color: var(--scondery-color-gray, #6a8383);
     background: transparent;
     border: none;
     border-bottom: 1px solid var(--scondery-color-gray, #6a8383);
