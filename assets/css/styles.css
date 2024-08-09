@@ -947,6 +947,7 @@ button:hover {
     border: transparent;
     transform: translateY(-59px);
     box-shadow: 0px 36px 100px 0px rgba(111, 120, 111, 0.2);
+    cursor: pointer;
 }
 
 .feature-item__title {
@@ -1028,6 +1029,7 @@ button:hover {
 
 .blog-item:hover {
     box-shadow: 0px 12px 74px 0px rgba(91, 91, 91, 0.25);
+    cursor: pointer;
 }
 
 .blog-item:hover .blog-item__thumb {
@@ -1115,6 +1117,7 @@ button:hover {
 
 .footer__subscribe-form__input {
     width: 354px;
+    padding-top: 20px;
     padding-bottom: 36px;
     color: var(--scondery-color-gray, #6a8383);
     background: transparent;
