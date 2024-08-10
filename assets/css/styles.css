@@ -343,6 +343,10 @@ button:hover {
     align-items: center;
 }
 
+.brand-logo:hover {
+    cursor: pointer;
+}
+
 .brand-name {
     margin-left: 11px;
     color: #163c35;
@@ -1123,6 +1127,10 @@ button:hover {
     background: transparent;
     border: none;
     border-bottom: 1px solid var(--scondery-color-gray, #6a8383);
+}
+
+.footer__subscribe-form__input:focus {
+    outline: none;
 }
 
 .footer__subscribe-form__input::placeholder {
